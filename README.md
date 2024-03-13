@@ -54,13 +54,17 @@ For each analysis it is suggested that you define the following:
 
 • A function that performs the required operation on the data and returns the results to be
 displayed.
+
 • A function, to be invoked by a menu option, that accepts user input if required for an
 operation, invokes the operation function, and displays the results of the operation to the
 user.
+
 • The functions for each analysis should be composed to perform the operation and display
 the result. For example, analysis 1 could be performed using:
-o A function that is applied to the data and returns a result of type Map[String, Int].
-o A function that invokes the operation and iterates through the resulting map to
+
+• A function that is applied to the data and returns a result of type Map[String, Int].
+
+• A function that invokes the operation and iterates through the resulting map to
 display its contents.
 
 Each analysis will differ in terms of the user input required and the type of result returned by the
