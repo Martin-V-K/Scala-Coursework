@@ -85,9 +85,11 @@ fragments in your report:
 
 • **Functional thinking**: to what extent does your solution consistently evidence the application
 of functional principles?
+
 • **Functional programming style**: what functional programming techniques have you used in
 your solution and why did you choose each of these, particularly where another functional
 technique could have been used as an alternative.
+
 • **Comparison of functional and imperative style**: what, in your view, did your use of
 programming styles contribute to the ease of development and/or the quality of your
 solution? How would you approach this assignment if given a free choice of programming
